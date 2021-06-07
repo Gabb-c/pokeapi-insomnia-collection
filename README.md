@@ -1,7 +1,16 @@
-# pokeapi-insomnia-collection
+# PokéAPI Insomnia Collection
 
-A PokéAPI Insomnia Collection
+<div display="flex">
+  <a href="https://insomnia.rest/run/?label=Pok%C3%A9API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FGabb-c%2Fpokeapi-insomnia-collection%2Fmain%2Fpokeapi.json" >
+   <img alt="Run in Insomnia" src="https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white&label=Run%20in&labelColor=black"      />
+  </a>
+  <a href="https://insomnia.rest/download" >
+   <img alt="Insomnia Download" src="https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white&label=Download&labelColor=black"    />
+  </a>
+</div>
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Pok%C3%A9API&uri=https%3A%2F%2Fraw.githubusercontent.com%2FGabb-c%2Fpokeapi-insomnia-collection%2Fmain%2Fpokeapi.json)
+## Features
 
-![image](https://user-images.githubusercontent.com/65926741/121095040-f2beb000-c7c5-11eb-944a-eecb05500492.png)
+- All endpoints
+- Documented requests
+- Enviroment variables
