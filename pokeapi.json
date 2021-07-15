@@ -3695,9 +3695,7 @@
         "base_url": "https://pokeapi.co/api/v2"
       },
       "dataPropertyOrder": {
-        "&": [
-          "base_url"
-        ]
+        "&": ["base_url"]
       },
       "color": null,
       "isPrivate": false,

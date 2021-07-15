@@ -7,7 +7,7 @@ resources:
     parentId: fld_2b25eba2c7c648c5bb5404c50775d4a3
     modified: 1623276481903
     created: 1623276447296
-    url: "{{ _.base_url }}{{ _.language }}/"
+    url: '{{ _.base_url }}{{ _.language }}/'
     name: List Languages
     description: >-
       > {{ _.language }}/?offset=0&limit=20
@@ -33,12 +33,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -58,7 +58,7 @@ resources:
     modified: 1623276313223
     created: 1623276313223
     name: Language
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623276313223
@@ -68,7 +68,7 @@ resources:
     modified: 1623276289005
     created: 1623276289005
     name: Utility
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623276289005
@@ -92,7 +92,7 @@ resources:
     parentId: fld_2b25eba2c7c648c5bb5404c50775d4a3
     modified: 1623276428858
     created: 1623276301725
-    url: "{{ _.base_url }}{{ _.language }}/1"
+    url: '{{ _.base_url }}{{ _.language }}/1'
     name: Language by Name / ID
     description: >-
       > {{ _.language }}/( name or id )
@@ -120,7 +120,7 @@ resources:
     parentId: fld_839780a8442d4f1c9d05d0578bc20e62
     modified: 1623036132210
     created: 1622913634856
-    url: "{{ _.base_url }}{{ _.ability }}/"
+    url: '{{ _.base_url }}{{ _.ability }}/'
     name: List Abilities
     description: >-
       > {{ _.ability }}/?offset=0&limit=20
@@ -146,12 +146,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -171,7 +171,7 @@ resources:
     modified: 1623025163630
     created: 1622913607267
     name: Ability
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135726
@@ -181,7 +181,7 @@ resources:
     modified: 1623104578629
     created: 1622906240503
     name: Pokémon
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039510853
@@ -190,7 +190,7 @@ resources:
     parentId: fld_839780a8442d4f1c9d05d0578bc20e62
     modified: 1623025158663
     created: 1622910437197
-    url: "{{ _.base_url }}{{ _.ability }}/1"
+    url: '{{ _.base_url }}{{ _.ability }}/1'
     name: Ability by Name / ID
     description: >-
       > {{ _.ability }}/(*name or id*)
@@ -218,7 +218,7 @@ resources:
     parentId: fld_5f31ca2ff8ce45539d7ffebb19998315
     modified: 1623036165866
     created: 1622914563935
-    url: "{{ _.base_url }}{{ _.characteristic }}/"
+    url: '{{ _.base_url }}{{ _.characteristic }}/'
     name: List Characteristics
     description: >-
       > {{ _.characteristic }}/?offset=0&limit=20
@@ -244,12 +244,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -269,7 +269,7 @@ resources:
     modified: 1623025165912
     created: 1622914445332
     name: Characteristic
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135701
@@ -278,7 +278,7 @@ resources:
     parentId: fld_5f31ca2ff8ce45539d7ffebb19998315
     modified: 1623025141575
     created: 1622912029815
-    url: "{{ _.base_url }}{{ _.characteristic }}/1"
+    url: '{{ _.base_url }}{{ _.characteristic }}/1'
     name: Characteristic by ID
     description: >-
       > {{ _.characteristic }}/( id )
@@ -306,7 +306,7 @@ resources:
     parentId: fld_9d3f3961ba9440f0bbebbaf587f84ffd
     modified: 1623036174917
     created: 1622915715087
-    url: "{{ _.base_url }}{{ _.eggGroup }}/"
+    url: '{{ _.base_url }}{{ _.eggGroup }}/'
     name: List Egg Groups
     description: >-
       > {{ _.eggGroup }}/?offset=0&limit=20
@@ -332,12 +332,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -357,7 +357,7 @@ resources:
     modified: 1623025178537
     created: 1622915416188
     name: Egg Groups
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135688.5
@@ -366,7 +366,7 @@ resources:
     parentId: fld_9d3f3961ba9440f0bbebbaf587f84ffd
     modified: 1623025191729
     created: 1622915439970
-    url: "{{ _.base_url }}{{ _.eggGroup }}/1"
+    url: '{{ _.base_url }}{{ _.eggGroup }}/1'
     name: Egg Group by Name / ID
     description: >-
       > {{ _.eggGroup }}/( name or id )
@@ -394,7 +394,7 @@ resources:
     parentId: fld_99596ea0c9d64f39a96b489a0b449d19
     modified: 1623025213698
     created: 1622916033843
-    url: "{{ _.base_url }}{{ _.gender }}/1"
+    url: '{{ _.base_url }}{{ _.gender }}/1'
     name: Gender by Name / ID
     description: >-
       > {{ _.gender }}/( name or id )
@@ -423,7 +423,7 @@ resources:
     modified: 1623025201359
     created: 1622915957972
     name: Genders
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135682.25
@@ -432,7 +432,7 @@ resources:
     parentId: fld_99596ea0c9d64f39a96b489a0b449d19
     modified: 1623036183801
     created: 1622915975767
-    url: "{{ _.base_url }}{{ _.gender }}/"
+    url: '{{ _.base_url }}{{ _.gender }}/'
     name: List Genders
     description: >-
       > {{ _.gender }}/?offset=0&limit=20
@@ -458,12 +458,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -482,7 +482,7 @@ resources:
     parentId: fld_5dc377be802c4750bd7501acdc245b7c
     modified: 1623036192011
     created: 1622916459593
-    url: "{{ _.base_url }}{{ _.growthRate }}/"
+    url: '{{ _.base_url }}{{ _.growthRate }}/'
     name: List Growth Rates
     description: >-
       > {{ _.growthRate }}/?offset=0&limit=20
@@ -508,12 +508,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -533,7 +533,7 @@ resources:
     modified: 1623025222976
     created: 1622916423052
     name: Growth Rates
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135679.125
@@ -542,7 +542,7 @@ resources:
     parentId: fld_5dc377be802c4750bd7501acdc245b7c
     modified: 1623025236082
     created: 1622916291857
-    url: "{{ _.base_url }}{{ _.growthRate }}/1"
+    url: '{{ _.base_url }}{{ _.growthRate }}/1'
     name: Growth Rate by Name / ID
     description: >-
       > {{ _.growthRate }}/( name or id )
@@ -570,7 +570,7 @@ resources:
     parentId: fld_c481e8bae0de42d2a5d790dabe90fd5e
     modified: 1623025260580
     created: 1622916808261
-    url: "{{ _.base_url }}{{ _.nature }}/1"
+    url: '{{ _.base_url }}{{ _.nature }}/1'
     name: Nature by Name / ID
     description: >-
       > {{ _.nature }}/( name or id )
@@ -601,7 +601,7 @@ resources:
     modified: 1623025245483
     created: 1622916699080
     name: Natures
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135677.5625
@@ -610,7 +610,7 @@ resources:
     parentId: fld_c481e8bae0de42d2a5d790dabe90fd5e
     modified: 1623036200017
     created: 1622916711497
-    url: "{{ _.base_url }}{{ _.nature }}/"
+    url: '{{ _.base_url }}{{ _.nature }}/'
     name: List Natures
     description: >-
       > {{ _.nature }}/?offset=0&limit=20
@@ -636,12 +636,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -660,7 +660,7 @@ resources:
     parentId: fld_ad0549152e3a46dbacf8e564e8641458
     modified: 1623025284538
     created: 1622917104891
-    url: "{{ _.base_url }}{{ _.pokeathlonStat }}/1"
+    url: '{{ _.base_url }}{{ _.pokeathlonStat }}/1'
     name: Pokeathlo Stat by Name / ID
     description: >-
       > {{ _.pokeathlonStat }}/( name or id )
@@ -689,7 +689,7 @@ resources:
     modified: 1623025270249
     created: 1622917029773
     name: Pokeathlon Stats
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135676.7812
@@ -698,7 +698,7 @@ resources:
     parentId: fld_ad0549152e3a46dbacf8e564e8641458
     modified: 1623036207626
     created: 1622917043864
-    url: "{{ _.base_url }}{{ _.pokeathlonStat }}/"
+    url: '{{ _.base_url }}{{ _.pokeathlonStat }}/'
     name: List Pokeathlon Stats
     description: >-
       > {{ _.pokeathlonStat }}/?offset=0&limit=20
@@ -724,12 +724,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -748,7 +748,7 @@ resources:
     parentId: fld_98ce26ab068f4bceb2354df80991817b
     modified: 1623036217791
     created: 1622914881617
-    url: "{{ _.base_url }}{{ _.pokemon }}/"
+    url: '{{ _.base_url }}{{ _.pokemon }}/'
     name: List Pokémons
     description: >-
       > {{ _.pokemon }}/?offset=0&limit=20
@@ -774,12 +774,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -799,7 +799,7 @@ resources:
     modified: 1623025296211
     created: 1622914780061
     name: Pokemon
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135676.3906
@@ -808,7 +808,7 @@ resources:
     parentId: fld_98ce26ab068f4bceb2354df80991817b
     modified: 1623025312291
     created: 1622779566089
-    url: "{{ _.base_url }}{{ _.pokemon }}/1"
+    url: '{{ _.base_url }}{{ _.pokemon }}/1'
     name: Pokémon by Name / ID
     description: >-
       > {{ _.pokemon }}/(*name or id*)
@@ -836,7 +836,7 @@ resources:
     parentId: fld_3015d9abb7734dab96597365bd8ce7ff
     modified: 1623025339617
     created: 1622917522913
-    url: "{{ _.base_url }}{{ _.pokemon }}/7/encounters"
+    url: '{{ _.base_url }}{{ _.pokemon }}/7/encounters'
     name: Pokemon Location Area by Name / ID
     description: >-
       > {{ _.pokemon }}/( name or id )/encounters
@@ -865,7 +865,7 @@ resources:
     modified: 1623025319298
     created: 1622917433234
     name: Pokemon Location Areas
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135676.1953
@@ -874,7 +874,7 @@ resources:
     parentId: fld_ddd40a584bf942bdb8f87c2564ed2043
     modified: 1623036235595
     created: 1622917955163
-    url: "{{ _.base_url }}{{ _.pokemonColor }}/"
+    url: '{{ _.base_url }}{{ _.pokemonColor }}/'
     name: List Pokemon Colors
     description: >-
       > {{ _.pokemonColor }}/?offset=0&limit=20
@@ -900,12 +900,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -925,7 +925,7 @@ resources:
     modified: 1623025347582
     created: 1622917842001
     name: Pokemon Colors
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135676.0977
@@ -934,7 +934,7 @@ resources:
     parentId: fld_ddd40a584bf942bdb8f87c2564ed2043
     modified: 1623025365573
     created: 1622917861492
-    url: "{{ _.base_url }}{{ _.pokemonColor }}/1"
+    url: '{{ _.base_url }}{{ _.pokemonColor }}/1'
     name: Pokemon Color by Name / ID
     description: >-
       > {{ _.pokemonColor }}/( name or id )
@@ -962,7 +962,7 @@ resources:
     parentId: fld_c3f6d4cf43fe40d9b8b00e26804a829b
     modified: 1623036244538
     created: 1622919172210
-    url: "{{ _.base_url }}{{ _.pokemonForm }}/"
+    url: '{{ _.base_url }}{{ _.pokemonForm }}/'
     name: List Pokemon Forms
     description: >-
       > {{ _.pokemonForm }}/?offset=0&limit=20
@@ -987,12 +987,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1012,7 +1012,7 @@ resources:
     modified: 1623025372039
     created: 1622918086995
     name: Pokemon Forms
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135676.0488
@@ -1021,7 +1021,7 @@ resources:
     parentId: fld_c3f6d4cf43fe40d9b8b00e26804a829b
     modified: 1623025387270
     created: 1622918109174
-    url: "{{ _.base_url }}{{ _.pokemonForm }}/1"
+    url: '{{ _.base_url }}{{ _.pokemonForm }}/1'
     name: Pokemon Form by Name / ID
     description: >-
       > {{ _.pokemonForm }}/( name or id )
@@ -1049,7 +1049,7 @@ resources:
     parentId: fld_bf6ffb60a8c7406fad270347554fda42
     modified: 1623024948568
     created: 1622919928076
-    url: "{{ _.base_url }}{{ _.pokemonHabitat }}/1"
+    url: '{{ _.base_url }}{{ _.pokemonHabitat }}/1'
     name: Pokemon Habitat by Name / ID
     description: >-
       > {{ _.pokemonHabitat }}/( name or id )
@@ -1078,7 +1078,7 @@ resources:
     modified: 1623025394540
     created: 1622919727559
     name: Pokemon Habitats
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135676.0244
@@ -1087,7 +1087,7 @@ resources:
     parentId: fld_bf6ffb60a8c7406fad270347554fda42
     modified: 1623036255306
     created: 1622919843411
-    url: "{{ _.base_url }}{{ _.pokemonHabitat }}/"
+    url: '{{ _.base_url }}{{ _.pokemonHabitat }}/'
     name: List Pokemon Habitats
     description: >-
       > {{ _.pokemonHabitat }}/?offset=0&limit=20
@@ -1113,12 +1113,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1137,7 +1137,7 @@ resources:
     parentId: fld_7ef8a1750f3c44bcb5713dcc60425b52
     modified: 1623024856779
     created: 1622920548368
-    url: "{{ _.base_url }}{{ _.pokemonShape }}/1"
+    url: '{{ _.base_url }}{{ _.pokemonShape }}/1'
     name: Pokemon Shape by Name / ID
     description: >-
       > {{ _.pokemonShape }}/( name or id )
@@ -1166,7 +1166,7 @@ resources:
     modified: 1622920135676
     created: 1622920135676
     name: Pokemon Shapes
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135676
@@ -1175,7 +1175,7 @@ resources:
     parentId: fld_7ef8a1750f3c44bcb5713dcc60425b52
     modified: 1623036264689
     created: 1622920151540
-    url: "{{ _.base_url }}{{ _.pokemonShape }}/"
+    url: '{{ _.base_url }}{{ _.pokemonShape }}/'
     name: List Pokemon Shapes
     description: >-
       > {{ _.pokemonShape }}/?offset=0&limit=20
@@ -1200,12 +1200,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1224,7 +1224,7 @@ resources:
     parentId: fld_f7aff9705478426f9f428b34524b0bf2
     modified: 1623025602185
     created: 1623025548984
-    url: "{{ _.base_url }}{{ _.pokemonSpecies }}/1"
+    url: '{{ _.base_url }}{{ _.pokemonSpecies }}/1'
     name: Pokemon Species by Name / ID
     description: >-
       > {{ _.pokemonSpecies }}/( name or id )
@@ -1253,7 +1253,7 @@ resources:
     modified: 1623025466484
     created: 1623025461316
     name: Pokemon Species
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135626
@@ -1262,7 +1262,7 @@ resources:
     parentId: fld_f7aff9705478426f9f428b34524b0bf2
     modified: 1623036274407
     created: 1623025479715
-    url: "{{ _.base_url }}{{ _.pokemonSpecies }}/"
+    url: '{{ _.base_url }}{{ _.pokemonSpecies }}/'
     name: List Pokemon Species
     description: >-
       > {{ _.pokemonSpecies }}/?offset=0&limit=20
@@ -1287,12 +1287,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1311,7 +1311,7 @@ resources:
     parentId: fld_d2c34062bc77401ba5adc0c1f445a768
     modified: 1623025761138
     created: 1623025706811
-    url: "{{ _.base_url }}{{ _.stat }}/1"
+    url: '{{ _.base_url }}{{ _.stat }}/1'
     name: Stat by Name / ID
     description: >-
       > {{ _.stat }}/( name or id )
@@ -1340,7 +1340,7 @@ resources:
     modified: 1623025632085
     created: 1623025627974
     name: Stats
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135576
@@ -1349,7 +1349,7 @@ resources:
     parentId: fld_d2c34062bc77401ba5adc0c1f445a768
     modified: 1623036283557
     created: 1623025648299
-    url: "{{ _.base_url }}{{ _.stat }}/"
+    url: '{{ _.base_url }}{{ _.stat }}/'
     name: List Stats
     description: >-
       > {{ _.stat }}/?offset=0&limit=20
@@ -1374,12 +1374,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1398,7 +1398,7 @@ resources:
     parentId: fld_4fcd7e151c2f47eeafdabbff3fe74682
     modified: 1623025897141
     created: 1623025849844
-    url: "{{ _.base_url }}{{ _.type }}/1"
+    url: '{{ _.base_url }}{{ _.type }}/1'
     name: Type by Name / ID
     description: >-
       > {{ _.type }}/( name or id )
@@ -1427,7 +1427,7 @@ resources:
     modified: 1623025790186
     created: 1623025785378
     name: Types
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1622920135526
@@ -1436,7 +1436,7 @@ resources:
     parentId: fld_4fcd7e151c2f47eeafdabbff3fe74682
     modified: 1623036293993
     created: 1623025800045
-    url: "{{ _.base_url }}{{ _.type }}/"
+    url: '{{ _.base_url }}{{ _.type }}/'
     name: List Types
     description: >-
       > {{ _.type }}/?offset=0&limit=20
@@ -1461,12 +1461,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1485,7 +1485,7 @@ resources:
     parentId: fld_b254fdb136b1430a968dbefd32223f07
     modified: 1623039748905
     created: 1623039701506
-    url: "{{ _.base_url }}{{ _.move }}/1"
+    url: '{{ _.base_url }}{{ _.move }}/1'
     name: Move by Name / ID
     description: >-
       > {{ _.move }}/( name or id )
@@ -1514,7 +1514,7 @@ resources:
     modified: 1623040654910
     created: 1623039520617
     name: Move
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039599144
@@ -1524,7 +1524,7 @@ resources:
     modified: 1623039510803
     created: 1623039510803
     name: Moves
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039510803
@@ -1533,7 +1533,7 @@ resources:
     parentId: fld_b254fdb136b1430a968dbefd32223f07
     modified: 1623039690069
     created: 1623039633210
-    url: "{{ _.base_url }}{{ _.move }}/"
+    url: '{{ _.base_url }}{{ _.move }}/'
     name: List Moves
     description: >-
       > {{ _.move }}/?offset=0&limit=20
@@ -1559,12 +1559,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1583,7 +1583,7 @@ resources:
     parentId: fld_3ed7d90f65d0470ebce735c3433e954a
     modified: 1623039958902
     created: 1623039836892
-    url: "{{ _.base_url }}{{ _.moveAilment }}/1"
+    url: '{{ _.base_url }}{{ _.moveAilment }}/1'
     name: Move Ailment by Name / ID
     description: >-
       > {{ _.moveAilment }}/( name or id )
@@ -1612,7 +1612,7 @@ resources:
     modified: 1623040659449
     created: 1623039530889
     name: Move Ailments
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039594223.5
@@ -1621,7 +1621,7 @@ resources:
     parentId: fld_3ed7d90f65d0470ebce735c3433e954a
     modified: 1623039820071
     created: 1623039773067
-    url: "{{ _.base_url }}{{ _.moveAilment }}/"
+    url: '{{ _.base_url }}{{ _.moveAilment }}/'
     name: List Move Ailments
     description: >-
       > {{ _.moveAilment }}/?offset=0&limit=20
@@ -1647,12 +1647,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1671,7 +1671,7 @@ resources:
     parentId: fld_4e87655e8c8e475cb69d28a22024decf
     modified: 1623040107427
     created: 1623040045333
-    url: "{{ _.base_url }}{{ _.moveBattleStyle }}/1"
+    url: '{{ _.base_url }}{{ _.moveBattleStyle }}/1'
     name: Move Battle Style by Name / ID
     description: >-
       > {{ _.moveBattleStyle }}/( name or id )
@@ -1700,7 +1700,7 @@ resources:
     modified: 1623040662433
     created: 1623039545650
     name: Move Battle Styles
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039591788.25
@@ -1709,7 +1709,7 @@ resources:
     parentId: fld_4e87655e8c8e475cb69d28a22024decf
     modified: 1623040024770
     created: 1623039980972
-    url: "{{ _.base_url }}{{ _.moveBattleStyle }}/"
+    url: '{{ _.base_url }}{{ _.moveBattleStyle }}/'
     name: List Move Battle Styles
     description: >-
       > {{ _.moveBattleStyle }}/?offset=0&limit=20
@@ -1735,12 +1735,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1759,7 +1759,7 @@ resources:
     parentId: fld_0b6f5adafab04782b4677c56f0f2f0b7
     modified: 1623040225495
     created: 1623040181771
-    url: "{{ _.base_url }}{{ _.moveCategory }}/"
+    url: '{{ _.base_url }}{{ _.moveCategory }}/'
     name: List Move Categories
     description: >-
       > {{ _.moveCategory }}/?offset=0&limit=20
@@ -1785,12 +1785,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1810,7 +1810,7 @@ resources:
     modified: 1623040665527
     created: 1623039559595
     name: Move Categories
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039590570.625
@@ -1819,7 +1819,7 @@ resources:
     parentId: fld_0b6f5adafab04782b4677c56f0f2f0b7
     modified: 1623040170618
     created: 1623040135517
-    url: "{{ _.base_url }}{{ _.moveCategory }}/1"
+    url: '{{ _.base_url }}{{ _.moveCategory }}/1'
     name: Move Category by Name / ID
     description: >-
       > {{ _.moveCategory }}/( name or id )
@@ -1847,7 +1847,7 @@ resources:
     parentId: fld_97562cbd497d4d469eedabbf56b053d7
     modified: 1623040361425
     created: 1623040305238
-    url: "{{ _.base_url }}{{ _.moveDamageClass }}/"
+    url: '{{ _.base_url }}{{ _.moveDamageClass }}/'
     name: List Move Damage Classes
     description: >-
       > {{ _.moveDamageClass }}/?offset=0&limit=20
@@ -1873,12 +1873,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1898,7 +1898,7 @@ resources:
     modified: 1623040667710
     created: 1623039578093
     name: Move Damage Classes
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039589961.8125
@@ -1907,7 +1907,7 @@ resources:
     parentId: fld_97562cbd497d4d469eedabbf56b053d7
     modified: 1623040292923
     created: 1623040249508
-    url: "{{ _.base_url }}{{ _.moveDamageClass }}/1"
+    url: '{{ _.base_url }}{{ _.moveDamageClass }}/1'
     name: Move Damage Class by Name / ID
     description: >-
       > {{ _.moveDamageClass }}/( name or id )
@@ -1935,7 +1935,7 @@ resources:
     parentId: fld_a4daf26d44e4437db5930bd73fd176ce
     modified: 1623040510501
     created: 1623040452679
-    url: "{{ _.base_url }}{{ _.moveLearnMethod }}/"
+    url: '{{ _.base_url }}{{ _.moveLearnMethod }}/'
     name: List Move Learn Methods
     description: >-
       > {{ _.moveLearnMethod }}/?offset=0&limit=20
@@ -1961,12 +1961,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -1986,7 +1986,7 @@ resources:
     modified: 1623039589353
     created: 1623039589353
     name: Move Learn Methods
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039589353
@@ -1995,7 +1995,7 @@ resources:
     parentId: fld_a4daf26d44e4437db5930bd73fd176ce
     modified: 1623040422528
     created: 1623040382398
-    url: "{{ _.base_url }}{{ _.moveLearnMethod }}/1"
+    url: '{{ _.base_url }}{{ _.moveLearnMethod }}/1'
     name: Move Learn Methods by Name / ID
     description: >-
       > {{ _.moveLearnMethod }}/( name or id )
@@ -2023,7 +2023,7 @@ resources:
     parentId: fld_5d834b97022f4d5c8cced4207955eb3d
     modified: 1623040646403
     created: 1623040604226
-    url: "{{ _.base_url }}{{ _.moveTarget }}/"
+    url: '{{ _.base_url }}{{ _.moveTarget }}/'
     name: List Move Targets
     description: >-
       > {{ _.moveTarget }}/?offset=0&limit=20
@@ -2049,12 +2049,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2074,7 +2074,7 @@ resources:
     modified: 1623040673425
     created: 1623039599094
     name: Move Targets
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039589303
@@ -2083,7 +2083,7 @@ resources:
     parentId: fld_5d834b97022f4d5c8cced4207955eb3d
     modified: 1623040589390
     created: 1623040527406
-    url: "{{ _.base_url }}{{ _.moveTarget }}/1"
+    url: '{{ _.base_url }}{{ _.moveTarget }}/1'
     name: Move Target by Name / ID
     description: >-
       > {{ _.moveTarget }}/( name or id )
@@ -2111,7 +2111,7 @@ resources:
     parentId: fld_44272960b3494e6dbd781c5529056a9f
     modified: 1623039469822
     created: 1623039400137
-    url: "{{ _.base_url }}{{ _.machine }}/1"
+    url: '{{ _.base_url }}{{ _.machine }}/1'
     name: Machine by ID
     description: >-
       > {{ _.machine }}/( id )
@@ -2140,7 +2140,7 @@ resources:
     modified: 1623039341821
     created: 1623039341821
     name: Machine
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039341821
@@ -2150,7 +2150,7 @@ resources:
     modified: 1623039328395
     created: 1623039328395
     name: Machines
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623039328395
@@ -2159,7 +2159,7 @@ resources:
     parentId: fld_44272960b3494e6dbd781c5529056a9f
     modified: 1623039386072
     created: 1623039353292
-    url: "{{ _.base_url }}{{ _.machine }}/"
+    url: '{{ _.base_url }}{{ _.machine }}/'
     name: List Machines
     description: >-
       > {{ _.machine }}/?offset=0&limit=20
@@ -2185,12 +2185,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2209,7 +2209,7 @@ resources:
     parentId: fld_dba9da56426b484f9793cb08a3a790b2
     modified: 1623038801492
     created: 1623038758128
-    url: "{{ _.base_url }}{{ _.location }}/1"
+    url: '{{ _.base_url }}{{ _.location }}/1'
     name: Location by Name / ID
     description: >-
       > {{ _.location }}/( name or id )
@@ -2238,7 +2238,7 @@ resources:
     modified: 1623038678523
     created: 1623038638828
     name: Location
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623038671345
@@ -2248,7 +2248,7 @@ resources:
     modified: 1623038626345
     created: 1623038626345
     name: Locations
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623038626345
@@ -2257,7 +2257,7 @@ resources:
     parentId: fld_dba9da56426b484f9793cb08a3a790b2
     modified: 1623038742404
     created: 1623038699433
-    url: "{{ _.base_url }}{{ _.location }}/"
+    url: '{{ _.base_url }}{{ _.location }}/'
     name: List Locations
     description: >-
       > {{ _.location }}/?offset=0&limit=20
@@ -2283,12 +2283,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2307,7 +2307,7 @@ resources:
     parentId: fld_5bd201dc592a467b8d5148e622fc3f5d
     modified: 1623038906900
     created: 1623038862066
-    url: "{{ _.base_url }}{{ _.locationArea }}/1"
+    url: '{{ _.base_url }}{{ _.locationArea }}/1'
     name: Location Area by Name / ID
     description: >-
       > {{ _.locationArea }}/( name or id )
@@ -2336,7 +2336,7 @@ resources:
     modified: 1623038682426
     created: 1623038648882
     name: Location Areas
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623038671320
@@ -2345,7 +2345,7 @@ resources:
     parentId: fld_5bd201dc592a467b8d5148e622fc3f5d
     modified: 1623038848461
     created: 1623038816976
-    url: "{{ _.base_url }}{{ _.locationArea }}/"
+    url: '{{ _.base_url }}{{ _.locationArea }}/'
     name: List Location Areas
     description: >-
       > {{ _.locationArea }}/?offset=0&limit=20
@@ -2371,12 +2371,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2395,7 +2395,7 @@ resources:
     parentId: fld_c637d686547243e39069965921fba5d6
     modified: 1623039192318
     created: 1623039082296
-    url: "{{ _.base_url }}{{ _.palParkArea }}/1"
+    url: '{{ _.base_url }}{{ _.palParkArea }}/1'
     name: Pal Park Area by Name / ID
     description: >-
       > {{ _.palParkArea }}( name or id )
@@ -2424,7 +2424,7 @@ resources:
     modified: 1623038685314
     created: 1623038660951
     name: Pal Park Areas
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623038671307.5
@@ -2433,7 +2433,7 @@ resources:
     parentId: fld_c637d686547243e39069965921fba5d6
     modified: 1623039061748
     created: 1623038941636
-    url: "{{ _.base_url }}{{ _.palParkArea }}/"
+    url: '{{ _.base_url }}{{ _.palParkArea }}/'
     name: List Pal Park Areas
     description: >-
       > {{ _.palParkArea }}/?offset=0&limit=20
@@ -2459,12 +2459,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2483,7 +2483,7 @@ resources:
     parentId: fld_79151b4e440e44149e7179ed041ffc02
     modified: 1623039292896
     created: 1623039258692
-    url: "{{ _.base_url }}{{ _.region }}/"
+    url: '{{ _.base_url }}{{ _.region }}/'
     name: List Regions
     description: >-
       > {{ _.region }}/?offset=0&limit=20
@@ -2509,12 +2509,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2534,7 +2534,7 @@ resources:
     modified: 1623038671295
     created: 1623038671295
     name: Regions
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623038671295
@@ -2543,7 +2543,7 @@ resources:
     parentId: fld_79151b4e440e44149e7179ed041ffc02
     modified: 1623039248914
     created: 1623039212302
-    url: "{{ _.base_url }}{{ _.region }}/1"
+    url: '{{ _.base_url }}{{ _.region }}/1'
     name: Region by Name / ID
     description: >-
       > {{ _.region }}/( name or id )
@@ -2571,7 +2571,7 @@ resources:
     parentId: fld_5a037734bf044dc29cc0684293599734
     modified: 1623038060217
     created: 1623037908663
-    url: "{{ _.base_url }}{{ _.item }}/1"
+    url: '{{ _.base_url }}{{ _.item }}/1'
     name: Item by Name / ID
     description: >-
       > {{ _.item }}/( name or id )
@@ -2600,7 +2600,7 @@ resources:
     modified: 1623038066259
     created: 1623037829653
     name: Item
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037881522
@@ -2610,7 +2610,7 @@ resources:
     modified: 1623037822200
     created: 1623037822200
     name: Items
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037822200
@@ -2619,7 +2619,7 @@ resources:
     parentId: fld_5a037734bf044dc29cc0684293599734
     modified: 1623038055392
     created: 1623038016648
-    url: "{{ _.base_url }}{{ _.item }}/"
+    url: '{{ _.base_url }}{{ _.item }}/'
     name: List Items
     description: >-
       > {{ _.item }}/?offset=0&limit=20
@@ -2645,12 +2645,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2669,7 +2669,7 @@ resources:
     parentId: fld_c869ac3aa2e54918b727379df08c5685
     modified: 1623038194613
     created: 1623038152299
-    url: "{{ _.base_url }}{{ _.itemAttribute }}/1"
+    url: '{{ _.base_url }}{{ _.itemAttribute }}/1'
     name: Item Attribute by Name / ID
     description: >-
       > {{ _.itemAttribute }}/( name or id )
@@ -2698,7 +2698,7 @@ resources:
     modified: 1623038070464
     created: 1623037842505
     name: Item Attributes
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037881497
@@ -2707,7 +2707,7 @@ resources:
     parentId: fld_c869ac3aa2e54918b727379df08c5685
     modified: 1623038133911
     created: 1623038097194
-    url: "{{ _.base_url }}{{ _.itemAttribute }}/"
+    url: '{{ _.base_url }}{{ _.itemAttribute }}/'
     name: List Item Attributes
     description: >-
       > {{ _.itemAttribute }}/?offset=0&limit=20
@@ -2733,12 +2733,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2757,7 +2757,7 @@ resources:
     parentId: fld_cc1633858ba749899731778bd6b9759b
     modified: 1623038304701
     created: 1623038265294
-    url: "{{ _.base_url }}{{ _.itemCategory }}/1"
+    url: '{{ _.base_url }}{{ _.itemCategory }}/1'
     name: Item Category
     description: >-
       > {{ _.itemCategory }}/( name or id )
@@ -2786,7 +2786,7 @@ resources:
     modified: 1623038075959
     created: 1623037856330
     name: Item Categories
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037881484.5
@@ -2795,7 +2795,7 @@ resources:
     parentId: fld_cc1633858ba749899731778bd6b9759b
     modified: 1623038254147
     created: 1623038216306
-    url: "{{ _.base_url }}{{ _.itemCategory }}/"
+    url: '{{ _.base_url }}{{ _.itemCategory }}/'
     name: List Item Categories
     description: >-
       > {{ _.itemCategory }}/?offset=0&limit=20
@@ -2821,12 +2821,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2845,7 +2845,7 @@ resources:
     parentId: fld_d9b28f190380484aa3a9f2029d10ae50
     modified: 1623038467521
     created: 1623038411242
-    url: "{{ _.base_url }}{{ _.itemFlingEffect }}/"
+    url: '{{ _.base_url }}{{ _.itemFlingEffect }}/'
     name: List Item Fling Effects
     description: >-
       > {{ _.itemFlingEffect }}/?offset=0&limit=20
@@ -2871,12 +2871,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -2896,7 +2896,7 @@ resources:
     modified: 1623038333460
     created: 1623037869927
     name: Item Fling Effects
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037881478.25
@@ -2905,7 +2905,7 @@ resources:
     parentId: fld_d9b28f190380484aa3a9f2029d10ae50
     modified: 1623038393743
     created: 1623038352557
-    url: "{{ _.base_url }}{{ _.itemFlingEffect }}/1"
+    url: '{{ _.base_url }}{{ _.itemFlingEffect }}/1'
     name: Item Fling Effect by Name / ID
     description: >-
       > {{ _.itemFlingEffect }}/( name or id )
@@ -2933,7 +2933,7 @@ resources:
     parentId: fld_4b9f48f866514e8e8d0ea820d0ca616e
     modified: 1623038582195
     created: 1623038539564
-    url: "{{ _.base_url }}{{ _.itemPocket }}/1"
+    url: '{{ _.base_url }}{{ _.itemPocket }}/1'
     name: Item Pocket by Name / ID
     description: >-
       > {{ _.itemPocket }}/( name or id )
@@ -2962,7 +2962,7 @@ resources:
     modified: 1623037881472
     created: 1623037881472
     name: Item Pockets
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037881472
@@ -2971,7 +2971,7 @@ resources:
     parentId: fld_4b9f48f866514e8e8d0ea820d0ca616e
     modified: 1623038523929
     created: 1623038486008
-    url: "{{ _.base_url }}{{ _.itemPocket }}/"
+    url: '{{ _.base_url }}{{ _.itemPocket }}/'
     name: List Item Pockets
     description: >-
       > {{ _.itemPocket }}/?offset=0&limit=20
@@ -2997,12 +2997,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3021,7 +3021,7 @@ resources:
     parentId: fld_f8a5b249aea3492ca65b23affeeac8b7
     modified: 1623037154813
     created: 1623037110406
-    url: "{{ _.base_url }}{{ _.generation }}/1"
+    url: '{{ _.base_url }}{{ _.generation }}/1'
     name: Generation by Name / ID
     description: >-
       > {{ _.generation }}/( name or id )
@@ -3050,7 +3050,7 @@ resources:
     modified: 1623037780779
     created: 1623036983615
     name: Generations
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037021514
@@ -3060,7 +3060,7 @@ resources:
     modified: 1623036975822
     created: 1623036975822
     name: Games
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623036975822
@@ -3069,7 +3069,7 @@ resources:
     parentId: fld_f8a5b249aea3492ca65b23affeeac8b7
     modified: 1623037084307
     created: 1623037044114
-    url: "{{ _.base_url }}{{ _.generation }}/"
+    url: '{{ _.base_url }}{{ _.generation }}/'
     name: List Generations
     description: >-
       > {{ _.generation }}/?offset=0&limit=20
@@ -3095,12 +3095,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3119,7 +3119,7 @@ resources:
     parentId: fld_db964988dfa24f379750650102decfda
     modified: 1623037302935
     created: 1623037259478
-    url: "{{ _.base_url }}{{ _.pokedex }}/"
+    url: '{{ _.base_url }}{{ _.pokedex }}/'
     name: List Pokedexes
     description: >-
       > {{ _.pokedex }}/?offset=0&limit=20
@@ -3145,12 +3145,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3170,7 +3170,7 @@ resources:
     modified: 1623037783151
     created: 1623037002433
     name: Pokedexes
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037021489
@@ -3179,7 +3179,7 @@ resources:
     parentId: fld_db964988dfa24f379750650102decfda
     modified: 1623037241036
     created: 1623037180286
-    url: "{{ _.base_url }}{{ _.pokedex }}/1"
+    url: '{{ _.base_url }}{{ _.pokedex }}/1'
     name: Pokedex by Name / ID
     description: >-
       > {{ _.pokedex }}/( name or id )
@@ -3207,7 +3207,7 @@ resources:
     parentId: fld_5895854c2b8b4f8aa898c787a60b81a9
     modified: 1623037484177
     created: 1623037440683
-    url: "{{ _.base_url }}{{ _.version }}/"
+    url: '{{ _.base_url }}{{ _.version }}/'
     name: List Versions
     description: >-
       > {{ _.version }}/?offset=0&limit=20
@@ -3233,12 +3233,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3258,7 +3258,7 @@ resources:
     modified: 1623037784685
     created: 1623037010491
     name: Version
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037021476.5
@@ -3267,7 +3267,7 @@ resources:
     parentId: fld_5895854c2b8b4f8aa898c787a60b81a9
     modified: 1623037400179
     created: 1623037340825
-    url: "{{ _.base_url }}{{ _.version }}/1"
+    url: '{{ _.base_url }}{{ _.version }}/1'
     name: Version by Name / ID
     description: |-
       > {{ _.version }}/( name or id )
@@ -3293,7 +3293,7 @@ resources:
     parentId: fld_e0b78c86fcc94220a4d0dd49a6dde347
     modified: 1623037770005
     created: 1623037640433
-    url: "{{ _.base_url }}{{ _.versionGroup }}/"
+    url: '{{ _.base_url }}{{ _.versionGroup }}/'
     name: List Version Groups
     description: >-
       > {{ _.versionGroup }}/?offset=0&limit=20
@@ -3319,12 +3319,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3344,7 +3344,7 @@ resources:
     modified: 1623037021464
     created: 1623037021464
     name: Version Groups
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623037021464
@@ -3353,7 +3353,7 @@ resources:
     parentId: fld_e0b78c86fcc94220a4d0dd49a6dde347
     modified: 1623037622714
     created: 1623037525657
-    url: "{{ _.base_url }}{{ _.versionGroup }}/1"
+    url: '{{ _.base_url }}{{ _.versionGroup }}/1'
     name: Version Group by Name / ID
     description: >-
       > {{ _.versionGroup }}/( name or id )
@@ -3381,7 +3381,7 @@ resources:
     parentId: fld_49bcffb5f2654898bca4c2954c46c2e2
     modified: 1623036748507
     created: 1623036694276
-    url: "{{ _.base_url }}{{ _.evolutionChain }}/"
+    url: '{{ _.base_url }}{{ _.evolutionChain }}/'
     name: List Evolution Chains
     description: >-
       > {{ _.evolutionChain }}/?offset=0&limit=20
@@ -3407,12 +3407,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3432,7 +3432,7 @@ resources:
     modified: 1623036597480
     created: 1623036578773
     name: Evolution Chains
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623036589006
@@ -3442,7 +3442,7 @@ resources:
     modified: 1623036567213
     created: 1623036567213
     name: Evolution
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623036567213
@@ -3451,7 +3451,7 @@ resources:
     parentId: fld_49bcffb5f2654898bca4c2954c46c2e2
     modified: 1623036663992
     created: 1623036619400
-    url: "{{ _.base_url }}{{ _.evolutionChain }}/1"
+    url: '{{ _.base_url }}{{ _.evolutionChain }}/1'
     name: Evolution Chain by ID
     description: >-
       > {{ _.evolutionChain }}/( id )
@@ -3479,7 +3479,7 @@ resources:
     parentId: fld_79b85512cdb840d2841e46294306143c
     modified: 1623036933153
     created: 1623036862495
-    url: "{{ _.base_url }}{{ _.evolutionTrigger }}/1"
+    url: '{{ _.base_url }}{{ _.evolutionTrigger }}/1'
     name: Evolution Trigger by ID
     description: >-
       > {{ _.evolutionTrigger }}/( id )
@@ -3508,7 +3508,7 @@ resources:
     modified: 1623036588956
     created: 1623036588956
     name: Evolution Triggers
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623036588956
@@ -3517,7 +3517,7 @@ resources:
     parentId: fld_79b85512cdb840d2841e46294306143c
     modified: 1623036852116
     created: 1623036792307
-    url: "{{ _.base_url }}{{ _.evolutionTrigger }}/"
+    url: '{{ _.base_url }}{{ _.evolutionTrigger }}/'
     name: List Evolution Triggers
     description: >-
       > {{ _.evolutionTrigger }}/?offset=0&limit=20
@@ -3543,12 +3543,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3567,7 +3567,7 @@ resources:
     parentId: fld_7b1ab950a53344e9a2a2f48c8194043e
     modified: 1623036506050
     created: 1623036426291
-    url: "{{ _.base_url }}{{ _.encouterConditionValue }}/1"
+    url: '{{ _.base_url }}{{ _.encouterConditionValue }}/1'
     name: Encounter Condition Value by Name / ID
     description: >-
       > {{ _.encouterConditionValue }}/( name or id )
@@ -3596,7 +3596,7 @@ resources:
     modified: 1623036337880
     created: 1623036337880
     name: Encounter Condition Values
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623036337880
@@ -3606,7 +3606,7 @@ resources:
     modified: 1623035575794
     created: 1623035575794
     name: Encounters
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623035575794
@@ -3615,7 +3615,7 @@ resources:
     parentId: fld_7b1ab950a53344e9a2a2f48c8194043e
     modified: 1623036390001
     created: 1623036352375
-    url: "{{ _.base_url }}{{ _.encouterConditionValue }}/"
+    url: '{{ _.base_url }}{{ _.encouterConditionValue }}/'
     name: List Encounter Condition Values
     description: >-
       > {{ _.encouterConditionValue }}/?offset=0&limit=20
@@ -3641,12 +3641,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3665,7 +3665,7 @@ resources:
     parentId: fld_92d500c7c8444ac8be0f9d711f8958e9
     modified: 1623036035759
     created: 1623035917806
-    url: "{{ _.base_url }}{{ _.encounterCondition }}/"
+    url: '{{ _.base_url }}{{ _.encounterCondition }}/'
     name: List Encounter Conditions
     description: >-
       > {{ _.encounterCondition }}/?offset=0&limit=20
@@ -3691,12 +3691,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3716,7 +3716,7 @@ resources:
     modified: 1623035843360
     created: 1623035843360
     name: Encounter Conditions
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623035843360
@@ -3725,7 +3725,7 @@ resources:
     parentId: fld_92d500c7c8444ac8be0f9d711f8958e9
     modified: 1623035902784
     created: 1623035861102
-    url: "{{ _.base_url }}{{ _.encounterCondition }}/1"
+    url: '{{ _.base_url }}{{ _.encounterCondition }}/1'
     name: Encounter Condition by Name / ID
     description: >-
       > {{ _.encounterCondition }}/( name or id )
@@ -3753,7 +3753,7 @@ resources:
     parentId: fld_c7c7eab735c6449088814fadf68f1411
     modified: 1623036051273
     created: 1623035736083
-    url: "{{ _.base_url }}{{ _.encouterMethod }}/"
+    url: '{{ _.base_url }}{{ _.encouterMethod }}/'
     name: List Encounter Methods
     description: >-
       > {{ _.encouterMethod }}/?offset=0&limit=20
@@ -3779,12 +3779,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3804,7 +3804,7 @@ resources:
     modified: 1623035587009
     created: 1623035587009
     name: Encounter Methods
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623035587009
@@ -3813,7 +3813,7 @@ resources:
     parentId: fld_c7c7eab735c6449088814fadf68f1411
     modified: 1623035814876
     created: 1623035606568
-    url: "{{ _.base_url }}{{ _.encouterMethod }}/1"
+    url: '{{ _.base_url }}{{ _.encouterMethod }}/1'
     name: Encounter Method by Name / ID
     description: >-
       > {{ _.encouterMethod }}/( name or id )
@@ -3841,7 +3841,7 @@ resources:
     parentId: fld_a8e2877f74074c529be1402f992cea44
     modified: 1623027039677
     created: 1623026991872
-    url: "{{ _.base_url }}{{ _.superContestEffect }}/1"
+    url: '{{ _.base_url }}{{ _.superContestEffect }}/1'
     name: Super Contest Effects
     description: >-
       > {{ _.superContestEffect }}/( id )
@@ -3870,7 +3870,7 @@ resources:
     modified: 1623026939180
     created: 1623026939180
     name: Super Contest Effects
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623026939180
@@ -3880,7 +3880,7 @@ resources:
     modified: 1623026603105
     created: 1623026603105
     name: Contests
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623026603105
@@ -3889,7 +3889,7 @@ resources:
     parentId: fld_a8e2877f74074c529be1402f992cea44
     modified: 1623036061681
     created: 1623026950946
-    url: "{{ _.base_url }}{{ _.superContestEffect }}/"
+    url: '{{ _.base_url }}{{ _.superContestEffect }}/'
     name: List Super Contest Effects
     description: >-
       > {{ _.superContestEffect }}/?offset=0&limit=20
@@ -3915,12 +3915,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -3939,7 +3939,7 @@ resources:
     parentId: fld_500e258674b34beba96b19f7896fd584
     modified: 1623026907750
     created: 1623026858851
-    url: "{{ _.base_url }}{{ _.contestEffect }}/1"
+    url: '{{ _.base_url }}{{ _.contestEffect }}/1'
     name: Contest Effect by Name / ID
     description: >-
       > {{ _.contestEffect }}/( id )
@@ -3968,7 +3968,7 @@ resources:
     modified: 1623026789620
     created: 1623026789620
     name: Contest Effects
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623026789620
@@ -3977,7 +3977,7 @@ resources:
     parentId: fld_500e258674b34beba96b19f7896fd584
     modified: 1623036072762
     created: 1623026804191
-    url: "{{ _.base_url }}{{ _.contestEffect }}/"
+    url: '{{ _.base_url }}{{ _.contestEffect }}/'
     name: List Contest Effects
     description: >-
       > {{ _.contestEffect }}/?offset=0&limit=20
@@ -4003,12 +4003,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -4027,7 +4027,7 @@ resources:
     parentId: fld_4e2b34f3acfb4adfaf5a7f9c4303c8ae
     modified: 1623026756517
     created: 1623026691201
-    url: "{{ _.base_url }}{{ _.ContestType }}/1"
+    url: '{{ _.base_url }}{{ _.ContestType }}/1'
     name: Contest Type by Name / ID
     description: >-
       > {{ _.ContestType }}/( name or id )
@@ -4056,7 +4056,7 @@ resources:
     modified: 1623026613104
     created: 1623026613104
     name: Contest Types
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623026613105
@@ -4065,7 +4065,7 @@ resources:
     parentId: fld_4e2b34f3acfb4adfaf5a7f9c4303c8ae
     modified: 1623036089619
     created: 1623026626767
-    url: "{{ _.base_url }}{{ _.ContestType }}/"
+    url: '{{ _.base_url }}{{ _.ContestType }}/'
     name: List Contest Types
     description: >-
       > {{ _.ContestType }}/?offset=0&limit=20
@@ -4091,12 +4091,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -4115,7 +4115,7 @@ resources:
     parentId: fld_a50257bbc394430e8ae81613405d8307
     modified: 1623036100344
     created: 1623026391276
-    url: "{{ _.base_url }}{{ _.berryFlavor }}/"
+    url: '{{ _.base_url }}{{ _.berryFlavor }}/'
     name: List Berry Flavors
     description: >-
       > {{ _.berryFlavor }}/?offset=0&limit=20
@@ -4141,12 +4141,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -4166,7 +4166,7 @@ resources:
     modified: 1623026329326
     created: 1623026329326
     name: Berry Flavors
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623026329326
@@ -4176,7 +4176,7 @@ resources:
     modified: 1623025978611
     created: 1623025978611
     name: Berry
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623025978611
@@ -4185,7 +4185,7 @@ resources:
     parentId: fld_a50257bbc394430e8ae81613405d8307
     modified: 1623026518859
     created: 1623026341310
-    url: "{{ _.base_url }}{{ _.berryFlavor }}/1"
+    url: '{{ _.base_url }}{{ _.berryFlavor }}/1'
     name: Berry Flavor by Name / ID
     description: >-
       > {{ _.berryFlavor }}/( name or id )
@@ -4213,7 +4213,7 @@ resources:
     parentId: fld_857d935e62af4ea092cbd923449943e3
     modified: 1623026456135
     created: 1623026243745
-    url: "{{ _.base_url }}{{ _.berryFirmness }}/1"
+    url: '{{ _.base_url }}{{ _.berryFirmness }}/1'
     name: Berry Firmness by Name / ID
     description: >-
       > {{ _.berryFirmness }}/( name or id )
@@ -4242,7 +4242,7 @@ resources:
     modified: 1623026184182
     created: 1623026167627
     name: Berry Firmnesses
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623026167627
@@ -4251,7 +4251,7 @@ resources:
     parentId: fld_857d935e62af4ea092cbd923449943e3
     modified: 1623036110768
     created: 1623026199863
-    url: "{{ _.base_url }}{{ _.berry }}/"
+    url: '{{ _.base_url }}{{ _.berry }}/'
     name: List Berry Firmnesses
     description: >-
       > {{ _.berryFirmness }}/?offset=0&limit=20
@@ -4277,12 +4277,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -4301,7 +4301,7 @@ resources:
     parentId: fld_9687db98958b4b568a41bcf40d4232cc
     modified: 1623036120571
     created: 1623026106988
-    url: "{{ _.base_url }}{{ _.berry }}/"
+    url: '{{ _.base_url }}{{ _.berry }}/'
     name: List Berries
     description: >-
       > {{ _.berry }}/?offset=0&limit=20
@@ -4327,12 +4327,12 @@ resources:
     body: {}
     parameters:
       - name: offset
-        value: "0"
-        description: ""
+        value: '0'
+        description: ''
         id: pair_c768a07011ba4ebb83565868450f7967
       - name: limit
-        value: "20"
-        description: ""
+        value: '20'
+        description: ''
         id: pair_2a454a734c364fb9a436bb49eb73aec5
         type: text
         multiline: false
@@ -4352,7 +4352,7 @@ resources:
     modified: 1623025995042
     created: 1623025995042
     name: Berries
-    description: ""
+    description: ''
     environment: {}
     environmentPropertyOrder: null
     metaSortKey: -1623025995042
@@ -4361,7 +4361,7 @@ resources:
     parentId: fld_9687db98958b4b568a41bcf40d4232cc
     modified: 1623026082107
     created: 1623026009045
-    url: "{{ _.base_url }}{{ _.berry }}/1"
+    url: '{{ _.base_url }}{{ _.berry }}/1'
     name: Berry by Name / ID
     description: >-
       > {{ _.berry }}/( name or id )
@@ -4393,7 +4393,7 @@ resources:
     data:
       base_url: https://pokeapi.co/api/v2
     dataPropertyOrder:
-      "&":
+      '&':
         - base_url
     color: null
     isPrivate: false
@@ -4411,7 +4411,7 @@ resources:
     modified: 1622778933657
     created: 1622778933657
     fileName: Insomnia
-    contents: ""
+    contents: ''
     contentType: yaml
     _type: api_spec
   - _id: env_8e65718da08a4b78a2ee9112361a36ba
@@ -4469,7 +4469,7 @@ resources:
       type: /type
       language: /language
     dataPropertyOrder:
-      "&":
+      '&':
         - berry
         - berryFirmness
         - berryFlavor
@@ -4518,7 +4518,7 @@ resources:
         - stat
         - type
         - language
-    color: "#4b49b6"
+    color: '#4b49b6'
     isPrivate: false
     metaSortKey: 1622817807719
     _type: environment
