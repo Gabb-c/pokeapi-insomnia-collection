@@ -1,0 +1,27 @@
+name: Validate JSONs
+
+on:
+  pull_request:
+    branches: [main]
+
+  push:
+    branches: [main]
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2.3.4
+
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_JSONS: ../../pokeapi.json
+
+      - name: Validate YML
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: ../../pokeapi.yml
+          config_data: '{extends: default}'
