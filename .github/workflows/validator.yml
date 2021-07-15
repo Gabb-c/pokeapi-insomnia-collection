@@ -21,10 +21,10 @@ jobs:
           INPUT_JSONS: /pokeapi.json
           INPUT_SCHEMA: /schema.json
 
-      - name: Checkout Repository
-        uses: actions/checkout@master
-
       - name: Validate YML
         uses: karancode/yamllint-github-action@master
         with:
           yamllint_file_or_dir: './../../pokeapi.yml'
+
+        env:
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
