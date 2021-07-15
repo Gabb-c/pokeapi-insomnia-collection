@@ -18,11 +18,11 @@ jobs:
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
-          INPUT_JSONS: ../../pokeapi.json
-          INPUT_SCHEMA: ../../schema.json
+          INPUT_JSONS: /pokeapi.json
+          INPUT_SCHEMA: /schema.json
 
       - name: Validate YML
         uses: ibiqlik/action-yamllint@v3
         with:
-          file_or_dir: ../../pokeapi.yml
+          file_or_dir: /pokeapi.yml
           config_data: '{extends: default}'
