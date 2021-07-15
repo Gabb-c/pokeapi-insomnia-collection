@@ -24,7 +24,7 @@ jobs:
       - name: Validate YML
         uses: karancode/yamllint-github-action@master
         with:
-          yamllint_file_or_dir: './../../pokeapi.yml'
+          yamllint_file_or_dir: /pokeapi.yml
 
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
