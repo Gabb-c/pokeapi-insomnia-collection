@@ -22,7 +22,6 @@ jobs:
           INPUT_SCHEMA: /schema.json
 
       - name: Validate YML
-        uses: ibiqlik/action-yamllint@v3
+        uses: karancode/yamllint-github-action@master
         with:
-          file_or_dir: ../../pokeapi.yml
-          config_data: '{extends: default}'
+          yamllint_file_or_dir: '../../pokeapi.yml'
