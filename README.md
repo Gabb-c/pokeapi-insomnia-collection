@@ -12,14 +12,3 @@
 <br/>
 
 ![api-demo](https://user-images.githubusercontent.com/65926741/121102907-19381780-c7d5-11eb-826d-7799aa074ef9.gif)
-
-
-## Features
-
-- All endpoints
-- Documented requests
-- Enviroment variables
-
-## Plugins (optional)
-
-![image](https://user-images.githubusercontent.com/65926741/121103099-79c75480-c7d5-11eb-863f-56dcddfcc0b5.png)
